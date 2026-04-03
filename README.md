@@ -120,7 +120,7 @@ in professional SOC format.
 
 ## CV Summary
 
-> **SOC Home Lab — Threat Detection & Incident Response** | [GitHub](your-link-here)  
+> **SOC Home Lab — Threat Detection & Incident Response** | [GitHub](https://github.com/EncryptedCharles404/SOC-Home-Lab)  
 > Deployed Wazuh 4.8 SIEM on Ubuntu 24.04 with Windows 11 endpoint monitoring 
 > via Wazuh agent and Sysmon. Simulated SSH brute-force attacks using Hydra, 
 > authored custom detection rules, performed alert triage, and produced formal 
