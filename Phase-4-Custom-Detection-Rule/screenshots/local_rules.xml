@@ -1,0 +1,15 @@
+<!-- Local rules -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<group name="local,syslog,authentication_failed,">
+
+  <rule id="100001" level="12" frequency="8" timeframe="120">
+    <if_matched_sid>2502</if_matched_sid>
+    <description>Charles-SOC: Brute Force Attack Detected - Multiple authentication failures from same source</description>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+    <group>authentication_failures,pci_dss_11.4,gdpr_IV_35.7.d,</group>
+  </rule>
+
+</group>
